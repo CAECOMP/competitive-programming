@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="biblioteca"
+                  name="Biblioteca"
+                  start-page="biblioteca.md">
+
+    <toc-element topic="biblioteca.md">
+    </toc-element>
+    <toc-element topic="programacao-dinamica.md">
+        <toc-element topic="mochila.md">
+        </toc-element>
+    </toc-element>
+    <toc-element topic="estruturas.md">
+        <toc-element topic="dsu.md"/>
+        <toc-element topic="segtrees.md">
+        </toc-element>
+    </toc-element>
+    <toc-element topic="grafos.md">
+        <toc-element topic="ciclos.md"/>
+        <toc-element topic="menor-caminho.md"/>
+    </toc-element>
+</instance-profile>

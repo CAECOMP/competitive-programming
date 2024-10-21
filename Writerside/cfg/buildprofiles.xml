@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <variables>
+        <header-logo>caecomp.png</header-logo>
+        <custom-favicons>icon16.png,icon32.png,icon96.png</custom-favicons>
+        <noindex-content>false</noindex-content>
+        <offline-docs>true</offline-docs>
+        <primary-color>deep-ocean</primary-color>
+        <color-preset>vivid</color-preset>
+    </variables>
+    <build-profile instance="biblioteca">
+        <variables>
+            <noindex-content>false</noindex-content>
+        </variables>
+    </build-profile>
+
+</buildprofiles>
