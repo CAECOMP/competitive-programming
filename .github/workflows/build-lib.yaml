@@ -11,7 +11,7 @@ permissions:
 
 env:
   INSTANCE: "Writerside/biblioteca"
-  ARTIFACT: "biblioteca.zip"
+  ARTIFACT: "webHelpBIBLIOTECA2-all.zip"
   DOCKER_VERSION: "242.21870"
 
 jobs:
