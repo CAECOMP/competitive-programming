@@ -1,0 +1,26 @@
+{
+  "name": "competitive-programming-handbook",
+  "version": "1.0.0",
+  "description": "Um projeto do CAECOMP - IFCE para ajudar participantes de contests de programação competitiva.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev src",
+    "docs:build": "vitepress build src",
+    "docs:preview": "vitepress preview src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAECOMP/handbook-competitive-programming.git"
+  },
+  "author": "CAECOMP IFCE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CAECOMP/handbook-competitive-programming/issues"
+  },
+  "homepage": "https://github.com/CAECOMP/handbook-competitive-programming#readme",
+  "devDependencies": {
+    "vitepress": "^1.4.1"
+  },
+  "dependencies": {}
+}
