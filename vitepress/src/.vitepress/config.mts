@@ -4,10 +4,9 @@ import themeConfig from './config/themeConfig'
 export default defineConfig({
     lang: "pt-BR",
     metaChunk: true,
+    base: "/handbook-competitive-programming/",
     appearance: "dark",
     title: "Competitive Programming Handbook",
     description: "De competidores, para competidores.",
     themeConfig
 })
-
-
