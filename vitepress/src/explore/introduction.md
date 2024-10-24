@@ -12,9 +12,11 @@ import { VPTeamMembers } from 'vitepress/theme'
 const members = {
     "Vinícius Menezes": { nick: "ViniciusM2", title: "Presidente do CAECOMP" },
     "Paulo Diego": { nick: "pauloDiego-sudo", title: "Vice-Presidente do CAECOMP" },
+    "Kelvin Rodrigues": { nick: "KelvinLR", title: "Diretor da System Store" },
     "Claudemir Vieira": { nick: "Claudemirovsky", title: "Desenvolvedor de bugs e dores de cabeça" },
     "Vinicius Castro": { nick: "Vinicius-de-Castro", title: "Designer do CAECOMP" },
-    "Caio Cidade": { nick: "CaioCity", title: "Secretário do CAECOMP" }
+    "Caio Cidade": { nick: "CaioCity", title: "Secretário do CAECOMP" },
+    "Giovanna Castro": { nick: "GiihCastro", title: "Agente da ABIN" }
 }
 const team = Object.entries(members).map(([k, v]) => {
     return {
