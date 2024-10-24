@@ -41,16 +41,23 @@ function sidebarLibrary(): DefaultTheme.SidebarItem[] {
         {
             text: "Programação dinâmica",
             base: "/library/dp/",
+            collapsed: true,
             items: [{ text: "Problema da mochila", link: "knapsack" }]
         },
         {
-            text: "Estruturas", base: "/library/structures/", items: [
+            text: "Estruturas",
+            base: "/library/structures/",
+            collapsed: true,
+            items: [
                 { text: "Disjoint set union (UnionFind)", link: "dsu" },
                 { text: "Segtrees", link: "segtrees" }
             ]
         },
         {
-            text: "Grafos", base: "/library/graphs/", items: [
+            text: "Grafos",
+            base: "/library/graphs/",
+            collapsed: true,
+            items: [
                 { text: "Detecção de ciclo", link: "cycle-detection" },
                 { text: "Menor caminho", link: "shortest-path" }
             ]
