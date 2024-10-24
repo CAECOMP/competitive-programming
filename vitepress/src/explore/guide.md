@@ -3,7 +3,7 @@ title: Páginas
 features: 
     - title: Biblioteca
       icon: 📚
-      link: /library/dp/knapsack
+      link: /library/
       details: |
         Implementações de algoritmos e estruturas de dados comumente usados em
         contests de programação competitiva.
@@ -15,7 +15,7 @@ features:
 
     - title: Dicas e paranauês
       icon: 💡
-      links: /tips/
+      link: /tips/
       details: Veja todo tipo de informação e gambiarra que pode te ajudar em um contest.
 ---
 
