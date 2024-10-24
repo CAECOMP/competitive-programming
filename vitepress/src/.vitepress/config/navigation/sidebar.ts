@@ -10,16 +10,19 @@ const sidebar: DefaultTheme.SidebarItem[] = [
     {
         text: "Biblioteca",
         base: "/library/",
+        link: "/",
         items: sidebarLibrary()
     },
     {
         text: "Por trás dos panos",
         base: "/learn/",
+        link: "/",
         items: sidebarLearn(),
     },
     {
         text: "Dicas e paranauês",
         base: "/tips/",
+        link: "/",
         items: sidebarTips()
     }
 
