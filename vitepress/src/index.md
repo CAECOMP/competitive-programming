@@ -11,21 +11,26 @@ hero:
     alt: CAECOMP
   actions:
     - theme: brand
-      text: Veja a biblioteca
-      link: /library/dp/knapsack
+      text: Abrir guia
+      link: /explore/guide
 
 features:
   - title: Economize tempo
     icon: ⌛
     link: /library/dp/knapsack
+    linkText: Explorar a biblioteca
     details: A nossa biblioteca de algoritmos e estruturas dispõe de códigos prontinhos para se usar em contests!
 
   - title: Entenda os detalhes
     icon: ⚙️
+    link: /learn/
+    linkText: Ver explicações
     details: Ensinamos como vários algoritmos e estruturas de dados funcionam passo-a-passo - Desvende a mágica conosco!
 
   - title: Dicas para melhorar sua performance
     icon: 💡
+    link: /tips/
+    linkText: Ver dicas
     details: Tem dificuldade para debuggar? Quer conhecer recursos obscuros do compilador? Está no lugar certo!
 ---
 
