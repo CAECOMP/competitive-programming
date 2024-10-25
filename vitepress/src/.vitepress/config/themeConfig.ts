@@ -1,6 +1,7 @@
 import type { DefaultTheme } from 'vitepress'
 
 import sidebar from './navigation/sidebar'
+import nav from './navigation/navbar'
 import search from './searchConfig'
 
 const themeConfig: DefaultTheme.Config = {
@@ -8,9 +9,7 @@ const themeConfig: DefaultTheme.Config = {
     logo: "/caecomp.png",
     siteTitle: false,
     search,
-    nav: [
-        { text: 'Explorar', link: '/explore/guide' }
-    ],
+    nav,
     sidebar,
     socialLinks: [
         { icon: 'github', link: 'https://github.com/CAECOMP' }

@@ -1,26 +1,31 @@
 {
-  "name": "competitive-programming-handbook",
-  "version": "1.0.0",
-  "description": "Um projeto do CAECOMP - IFCE para ajudar participantes de contests de programação competitiva.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev src",
-    "docs:build": "vitepress build src",
-    "docs:preview": "vitepress preview src"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CAECOMP/handbook-competitive-programming.git"
-  },
-  "author": "CAECOMP IFCE",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CAECOMP/handbook-competitive-programming/issues"
-  },
-  "homepage": "https://github.com/CAECOMP/handbook-competitive-programming#readme",
-  "devDependencies": {
-    "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "^1.4.1"
-  }
+    "name": "competitive-programming-handbook",
+    "version": "1.0.0",
+    "description": "Um projeto do CAECOMP - IFCE para ajudar participantes de contests de programação competitiva.",
+    "main": "index.js",
+    "scripts": {
+        "docs:dev": "vitepress dev src",
+        "docs:build": "vitepress build src",
+        "docs:preview": "vitepress preview src",
+        "docs:print": "tsx src/createPdf.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CAECOMP/handbook-competitive-programming.git"
+    },
+    "author": "CAECOMP IFCE",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CAECOMP/handbook-competitive-programming/issues"
+    },
+    "homepage": "https://github.com/CAECOMP/handbook-competitive-programming#readme",
+    "devDependencies": {
+        "@types/node": "^22.8.0",
+        "@web-printer/core": "^0.4.0",
+        "@web-printer/vitepress": "^0.4.0",
+        "markdown-it-mathjax3": "^4.3.2",
+        "tsx": "^4.19.1",
+        "typescript": "^5.6.3",
+        "vitepress": "^1.4.1"
+    }
 }

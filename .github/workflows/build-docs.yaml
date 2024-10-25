@@ -22,7 +22,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: vitepress
 
       - uses: pnpm/action-setup@v4
         with:
@@ -44,6 +43,19 @@ jobs:
 
       - name: Build with VitePress
         run: pnpm -C vitepress docs:build
+
+      - name: Run preview job on the background
+        run: pnpm -C vitepress docs:preview &
+
+      - name: Wait for the preview job
+        uses: iFaxity/wait-on-action@v1.2.1
+        with:
+          resource: tcp:4173
+
+      - name: Generate Library PDF
+        run: |
+          pnpm -C vitepress docs:print
+          pkill -f docs:preview
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
