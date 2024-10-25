@@ -20,6 +20,9 @@ const themeConfig: DefaultTheme.Config = {
     docFooter: {
         prev: 'Página anterior',
         next: 'Próxima página'
+    },
+    outline: {
+        label: "Conteúdo"
     }
 }
 
