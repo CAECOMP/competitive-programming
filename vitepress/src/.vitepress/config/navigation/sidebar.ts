@@ -74,7 +74,11 @@ function sidebarLearn(): DefaultTheme.SidebarItem[] {
 
 function sidebarTips(): DefaultTheme.SidebarItem[] {
     return [
-        { text: "Dicas de debug", base: "/", link: "TODO" }
+        {
+            text: "Debugging", base: "/tips/debug/", collapsed: true, items: [
+                { text: "Debuggando variáveis", link: "debugging-variables" }
+            ]
+        }
     ]
 }
 
