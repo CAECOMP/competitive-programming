@@ -76,7 +76,8 @@ function sidebarTips(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: "Debugging", base: "/tips/debug/", collapsed: true, items: [
-                { text: "Debuggando variáveis", link: "debugging-variables" }
+                { text: "Debuggando variáveis", link: "debugging-variables" },
+                { text: "Debuggando crashes", link: "debugging-crashes" }
             ]
         }
     ]

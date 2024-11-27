@@ -184,7 +184,7 @@ void printer(string s, vector<H> &vec, A... args) {
 }
 ```
 
-## Desativando o debug
+## Desativando o debug {#desativando}
 
 Novamente, macros te ajudarão. Você pode escrever algo do tipo:
 
